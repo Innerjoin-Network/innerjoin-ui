@@ -1,0 +1,26 @@
+.project {
+  width: 584px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 2px;
+  text-align: left;
+  padding: 20px 50px;
+  position: relative;
+  min-height: 130px;
+  
+  //alt
+  width: 768px;
+  padding: 20px 120px;
+}
+
+.project-detail {
+  text-align: left;
+  
+  .author,
+  .contact {
+    border: 1px dashed black;
+    display: inline-block;
+    padding: 5px;
+    font-size: 14px;
+  }
+}

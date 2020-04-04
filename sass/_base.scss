@@ -1,0 +1,60 @@
+/////////
+// colors
+$off-black: #373737;
+$off-white: #F7F7F7;
+$blue: #483D8B;
+
+// greens
+$green: #8fbc8f;
+$green-lt-5: lighten($green, 5%);
+$green-lt-10: lighten($green, 10%);
+$green-lt-15: lighten($green, 15%);
+$green-lt-20: lighten($green, 20%);
+$green-lt-25: lighten($green, 25%);
+$green-lt-30: lighten($green, 30%);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  color: $off-black;
+  background-color: $off-white;
+  background-color: $green;
+  background-color: $green-lt-5;
+  background-color: $green-lt-10;
+  background-color: $green-lt-15;
+  background-color: $green-lt-20;
+  background-color: $green-lt-25;
+  background-color: $green-lt-30;
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  margin-left: 40px;
+  position: relative;
+  
+  &:before,
+  &:after {
+    content: '';
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -50px;
+  }
+
+  &:after {
+    transform: translate(8px, 8px);
+  }
+}
+
+p {
+  margin: 10px 0;
+}

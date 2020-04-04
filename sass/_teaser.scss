@@ -1,0 +1,27 @@
+// Project list stuff
+
+.project-teaser {
+  width: 584px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 2px;
+  text-align: left;
+  padding: 20px 50px;
+  position: relative;
+  min-height: 130px;
+  
+  //alt
+  width: 768px;
+  padding: 20px 120px;
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.vote-note,
+.flag-note {
+  font-size: 14px;
+  text-align: center;
+}

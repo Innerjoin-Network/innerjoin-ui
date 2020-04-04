@@ -1,0 +1,55 @@
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>Forms | InnerJoin</title>
+    <link rel="canonical" href="https://amp.dev/documentation/guides-and-tutorials/start/create/basic_markup/">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Open-source framework for publishing content",
+        "datePublished": "2015-10-07T12:02:41Z",
+        "image": [
+          "logo.jpg"
+        ]
+      }
+    </script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <a href="index.html">(go home)</a>
+    <form>
+      <h2>Create an Account/Log In</h2>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+      <label for="password">Password:</label>
+      <input type="text" id="password" name="password">
+      <input type="submit" value="Create account/Log in">
+    </form>
+    
+    <form>
+      <h2>Reset Password</h2>
+      <label for="password">New Password:</label>
+      <input type="text" id="password" name="password">
+      <label for="confirm">Confirm Password:</label>
+      <input type="text" id="confirm" name="confirm">
+      <input type="submit" value="Reset password">
+    </form>
+    
+    <form>
+      <h2>Edit Profile</h2>
+      <h3>Select an image:</h3>
+      <label for="img" class="custom-file-upload">Upload image</label>
+      <input type="file" id="img" name="img" accept="image/*"/>
+      <input type="submit" disabled>
+      <h3></h3>
+    </form>
+    
+  </body>
+</html>
