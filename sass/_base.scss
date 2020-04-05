@@ -1,8 +1,10 @@
 /////////
 // colors
-$off-black: #373737;
-$off-white: #F7F7F7;
+$black: #373737;
+$white: #F7F7F7;
 $blue: #483D8B;
+$indigo: #8A2BE2;
+$red: #FF0000;
 
 // greens
 $green: #8fbc8f;
@@ -22,8 +24,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
-  color: $off-black;
-  background-color: $off-white;
+  color: $black;
+  background-color: $white;
   background-color: $green;
   background-color: $green-lt-5;
   background-color: $green-lt-10;
@@ -42,7 +44,7 @@ h1 {
   &:before,
   &:after {
     content: '';
-    border: 2px solid black;
+    border: 2px solid $black;
     border-radius: 50%;
     width: 20px;
     height: 20px;

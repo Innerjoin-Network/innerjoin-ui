@@ -1,0 +1,67 @@
+// Map pins - just pick your size: pin-sm or pin-lg
+
+.pin-sm {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid $red;
+  position: relative;
+  margin: 100px auto;
+  
+  &:before {
+    content: '';
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    top: -13px;
+    background-color: $red;
+    border-radius: 50%;
+    left: -5px;
+  }
+
+  &:after {
+    content: '';
+    width: 3px;
+    height: 2px;
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    background-color: $white;
+    border-radius: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.pin-lg {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid $red;
+  position: relative;
+  margin: 100px auto;
+  
+  &:before {
+    content: '';
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    top: -26px;
+    background-color: $red;
+    border-radius: 50%;
+    left: -10px;
+  }
+
+  &:after {
+    content: '';
+    width: 6px;
+    height: 4px;
+    position: absolute;
+    top: -22px;
+    left: 50%;
+    background-color: $white;
+    border-radius: 50%;
+    transform: translateX(-50%);
+  }
+}

@@ -1,6 +1,17 @@
+// Base styles
 @import 'base';
+
+// Simple components
 @import 'flag';
 @import 'vote';
+@import 'map';
+@import 'search';
+@import 'menu';
+
+// Larger components
 @import 'form';
 @import 'detail';
 @import 'teaser';
+
+// Miscellaneous
+@import 'misc';
